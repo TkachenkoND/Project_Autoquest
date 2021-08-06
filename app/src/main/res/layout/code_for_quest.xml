@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gg3">
+
+    <EditText
+        android:id="@+id/_enterCodeForQst"
+        android:layout_width="232dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="188dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:hint="Введіть код"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/_btnOkForCodeQst"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+
+    <Button
+        android:id="@+id/_btnOkForCodeQst"
+        android:layout_width="229dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="112dp"
+        android:background="#0380DA"
+        android:text="Продовжити"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/_tvTxt"
+        android:layout_width="298dp"
+        android:layout_height="152dp"
+        android:text="Введіть в поле нижче код, який вам надав організатор для початку квеста"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

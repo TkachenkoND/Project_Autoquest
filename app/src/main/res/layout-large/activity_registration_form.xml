@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registration_1"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/name_team"
+        android:layout_width="288dp"
+        android:layout_height="45dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Назва команди"
+        android:inputType="text"
+        android:paddingLeft="12dp"
+        android:textColor="#00BCD4"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="288dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Пошта"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="12dp"
+        android:textColor="#00BCD4"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_team" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="288dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:paddingLeft="12dp"
+        android:textColor="#00BCD4"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mail" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_singUp"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:background="#0380DA"
+        android:text="@string/str_regist"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/password"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <TextView
+        android:id="@+id/btn_click_send_maill"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:clickable="true"
+        android:onClick="OnClickGoLogin"
+        android:text="@string/str_edit_login"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_singUp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_singUp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_singUp"
+        app:layout_constraintVertical_bias="0.064" />
+</androidx.constraintlayout.widget.ConstraintLayout>

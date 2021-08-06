@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ListView.ListWithQuest">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/_firstQuest"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/city4"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:onClick="onClick"
+                android:paddingTop="60dp"
+                android:text="Черкаси квест"
+                android:textAlignment="center"
+                android:textColor="#F8F5F5"
+                android:textSize="34sp"
+                android:textStyle="bold|italic"
+                android:shadowColor="#0483E4"
+                android:shadowDx="0.0"
+                android:shadowDy="0.0"
+                android:shadowRadius="8"
+
+                />
+
+            <TextView
+                android:id="@+id/_secondQuest"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/city2"
+                android:clickable="false"
+                android:paddingLeft="55dp"
+                android:paddingTop="60dp"
+                android:text="Київ квест               (скоро у додатку)"
+                android:textColor="#F8F3F3"
+                android:textSize="34sp"
+                android:textStyle="bold|italic"
+                android:shadowColor="#0483E4"
+                android:shadowDx="0.0"
+                android:shadowDy="0.0"
+                android:shadowRadius="8"
+
+                />
+
+            <TextView
+                android:id="@+id/_thirdQuest"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/city7"
+                android:paddingLeft="55dp"
+                android:paddingTop="60dp"
+                android:text="Одеса квест                 (скоро у додатку)"
+                android:textColor="#FCF9F9"
+                android:textSize="34sp"
+                android:textStyle="bold|italic"
+                android:shadowColor="#0483E4"
+                android:shadowDx="0.0"
+                android:shadowDy="0.0"
+                android:shadowRadius="8"
+                />
+
+            <TextView
+                android:id="@+id/_fourthQuest"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/city1"
+                android:paddingLeft="55dp"
+                android:paddingTop="60dp"
+                android:text="Львів квест             (скоро у додатку)"
+                android:textColor="#F9F7F7"
+                android:textSize="34sp"
+                android:textStyle="bold|italic"
+                android:shadowColor="#0483E4"
+                android:shadowDx="0.0"
+                android:shadowDy="0.0"
+                android:shadowRadius="8"
+                />
+
+            <TextView
+                android:id="@+id/_fifthQuest"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/city6"
+                android:paddingLeft="55dp"
+                android:paddingTop="60dp"
+                android:text="Дніпро квест            (скоро у додатку)"
+                android:textColor="#F5F0F0"
+                android:textSize="34sp"
+                android:textStyle="bold|italic"
+                android:shadowColor="#0483E4"
+                android:shadowDx="0.0"
+                android:shadowDy="0.0"
+                android:shadowRadius="8"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

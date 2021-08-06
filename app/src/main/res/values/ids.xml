@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvTxt1" type="id" />
+    <item name="tvTxt2" type="id" />
+    <item name="tvTxt3" type="id" />
+    <item name="tvTxt4" type="id" />
+    <item name="tvTxt5" type="id" />
+    <item name="tvTxt6" type="id" />
+    <item name="tvTxt7" type="id" />
+    <item name="tvTxt8" type="id" />
+    <item name="tvTxt9" type="id" />
+    <item name="tvTxt10" type="id" />
+    <item name="tvTxt11" type="id" />
+    <item name="tvTxt12" type="id" />
+    <item name="tvTxt13" type="id" />
+    <item name="tvTxt14" type="id" />
+    <item name="tvTxt15" type="id" />
+    <item name="tvTxt16" type="id" />
+    <item name="tvTxt17" type="id" />
+    <item name="tvTxt18" type="id" />
+    <item name="tvTxt19" type="id" />
+    <item name="tvTxt20" type="id" />
+    <item name="tvTxt21" type="id" />
+    <item name="tvTxt22" type="id" />
+    <item name="tvTxt23" type="id" />
+    <item name="tvTxt24" type="id" />
+    <item name="tvTxt25" type="id" />
+    <item name="tvTxt26" type="id" />
+    <item name="tvTxt27" type="id" />
+    <item name="tvTxt28" type="id" />
+    <item name="tvTxt29" type="id" />
+    <item name="tvTxt30" type="id" />
+    <item name="tvTxt31" type="id" />
+    <item name="tvTxt32" type="id" />
+    <item name="tvTxt33" type="id" />
+    <item name="tvTxt34" type="id" />
+    <item name="tvTxt35" type="id" />
+</resources>

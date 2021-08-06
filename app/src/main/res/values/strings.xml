@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project_AQ_version009</string>
+    <string name="button_login">Увійти</string>
+    <string name="button_registration_transfer" >Реєстрація</string>
+    <string name="button_forgot_password" >Забули пароль?</string>
+    <string name="str_regist">Зареєструватися</string>
+    <string name="str_edit_registr">Реєстрація</string>
+    <string name="str_edit_login">Увійти</string>
+    <string name="str_forgot_password">Забули пароль?</string>
+
+
+</resources>

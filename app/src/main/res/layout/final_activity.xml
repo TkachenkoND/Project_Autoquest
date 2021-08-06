@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context="com.example.StartQuest.TheFinalActivity">
+
+    <TableRow
+        android:background="#0380DA"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Результати"
+            android:layout_span="3"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:paddingLeft="150dp"
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="Назва команди"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:text="Бали команди"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:text="Місце команди"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            />
+    </TableRow>
+
+
+
+    //начало результатов
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="Потери"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvTxt2"
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="85.5"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tvTxt3"
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="1-ше"
+            android:textSize="15dp"
+            />
+    </TableRow>
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTxt4"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="Янголятка"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvTxt5"
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="80.3"
+            />
+
+        <TextView
+            android:id="@+id/tvTxt6"
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="2-ге"
+            />
+    </TableRow>
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTxt7"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="Діти сонця"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvTxt8"
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="80"
+            />
+
+        <TextView
+            android:id="@+id/tvTxt9"
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="3-тє"
+            android:textSize="15dp"
+            />
+    </TableRow>
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTxt10"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="Люди-Х"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvTxt11"
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="72.2"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tvTxt12"
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="4-те"
+            android:textSize="15dp"
+            />
+    </TableRow>
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTxt13"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="Стражи"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvTxt14"
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="70"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tvTxt15"
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="5-те"
+            />
+    </TableRow>
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTxt16"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="Добряки"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvTxt17"
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:text="68.3"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="6-те"
+            />
+    </TableRow>
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTxt18"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="Малята"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvTxt19"
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="65.9"
+            />
+
+        <TextView
+            android:id="@+id/tvTxt20"
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="7-ме"
+            />
+    </TableRow>
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTxt21"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="ПростоКоманда"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvTxt22"
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="63.3"
+            />
+
+        <TextView
+            android:id="@+id/tvTxt23"
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="8-ме"
+            />
+    </TableRow>
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTxt24"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="Дівчата"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvTxt25"
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="60.9"
+            />
+
+        <TextView
+            android:id="@+id/tvTxt26"
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="9-те"
+            />
+    </TableRow>
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTxt27"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="Орли"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvTxt28"
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="60.2"
+            />
+
+        <TextView
+            android:id="@+id/tvTxt29"
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="10-те"
+            />
+    </TableRow>
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTxt30"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvTxt31"
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tvTxt32"
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            />
+    </TableRow>
+    <TableRow
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+
+            android:layout_width="119dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            />
+
+        <TextView
+
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            />
+    </TableRow>
+
+<TableRow
+android:background="#ffffff"
+android:padding="5dp">
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="44dp"
+    android:textColor="#000000"
+    android:textSize="15dp" />
+
+<TextView
+
+    android:layout_width="119dp"
+    android:layout_height="44dp"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    />
+
+<TextView
+
+    android:layout_width="127dp"
+    android:layout_height="44dp"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    />
+</TableRow>
+
+<TableRow
+android:background="#ffffff"
+android:padding="5dp">
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="44dp"
+    android:textColor="#000000"
+    android:textSize="15dp" />
+
+<TextView
+
+    android:layout_width="119dp"
+    android:layout_height="44dp"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    />
+
+<TextView
+
+    android:layout_width="127dp"
+    android:layout_height="44dp"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    />
+</TableRow>
+
+<TableRow
+android:background="#ffffff"
+android:padding="5dp">
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="44dp"
+    android:textColor="#000000"
+    android:textSize="15dp" />
+
+<TextView
+
+    android:layout_width="119dp"
+    android:layout_height="44dp"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    />
+
+<TextView
+
+    android:layout_width="127dp"
+    android:layout_height="44dp"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    />
+</TableRow>
+
+</TableLayout>
